@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="terning.css">    
+        <title>Terning spill</title>
+    </head>
+    <body>
+        <div class="wrapper clearfix">
+            <!-- Spiller 1 panel -->
+            <div class="spiller-0-panel">
+                <div class="spiller-navn">Spiller 1</div>
+                <div class="spiller-poeng" id="poeng-0">0</div>
+                <div class="spiller-sum-box">
+                    <div class="spiller-sum-label">Poengsum</div>
+                    <div class="spiller-sum-poeng" id="sum-0">0</div>
+                </div>
+            </div>
+            <!--Spiller 2-->
+            <div class="spiller-1-panel">
+                <div class="spiller-navn">Spiller 2</div>
+                <div class="spiller-poeng" id="poeng-1">0</div>
+                <div class="spiller-sum-box">
+                    <div class="spiller-sum-label">Poengsum</div>
+                    <div class="spiller-sum-poeng" id="sum-1">0</div>
+                </div>
+            </div>
+            <!--Knapper-->
+            <button class="btn-ny"><i class="ion-ios-plus-outline"></i> Nytt spill</button>
+            <button class="btn-kast"><i class="ion-ios-loop"></i> Kast terning</button>
+            <button class="btn-hold"><i class="ion-ios-download-outline"></i> Hold</button>
+            <!--Terning bilde-->
+            <img src="img/terning-1.png" alt="Terning" class="terning" id="terning">
+        </div>
+        <script src="terning.js"></script>
+    </body>
+</html>
